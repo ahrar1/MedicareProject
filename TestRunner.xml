@@ -1,0 +1,36 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="testCycle1" verbose="1" >
+  
+  
+    <test name="Homepage Test" >
+     <classes>
+       <class name="com.sportyshoe.Tests.HomePageTest" />
+    </classes>
+  </test>
+  
+   <test name="Register Test" >
+     <classes>
+       <class name="com.sportyshoe.Tests.RegisterPageTest" />
+    </classes>
+  </test>
+  
+  <test name="Login Test" >
+     <classes>
+       <class name="com.sportyshoe.Tests.LoginPageTest" />
+    </classes>
+  </test>
+  
+  <test name="AddCart Test" >
+     <classes>
+       <class name="com.sportyshoe.Tests.AddtoCartPageTest" />
+    </classes>
+  </test>
+  
+  <test name="Order Test" >
+     <classes>
+       <class name="com.sportyshoe.Tests.OrderpageTest" />
+    </classes>
+  </test>
+    
+  </suite>
